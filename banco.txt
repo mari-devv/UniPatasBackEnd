@@ -1,0 +1,11 @@
+CREATE TABLE usuarios (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    nome VARCHAR(255),
+    cpf VARCHAR(15),
+    email VARCHAR(255),
+    telefone VARCHAR(20),
+    login VARCHAR(50),
+    senha VARCHAR(255),
+    opcoes_contato BOOLEAN DEFAULT FALSE,
+    lar_temporario BOOLEAN DEFAULT FALSE
+);
